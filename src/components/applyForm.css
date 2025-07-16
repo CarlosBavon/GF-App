@@ -1,0 +1,144 @@
+body {
+  background-color: #ffebee;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-title {
+  color: #e91e63;
+  text-align: center;
+}
+
+.disclaimer {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  font-size: 1rem;
+}
+
+.form-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin: 0 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+legend {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submission-message {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submission-message button {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 600px) {
+  .app-container {
+    padding: 15px;
+  }
+
+  .application-title {
+    font-size: 1rem;
+  }
+
+  .disclaimer {
+    font-size: 0.8rem;
+  }
+
+  label {
+    font-size: 0.8rem;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select,
+  input[type="range"] {
+    font-size: 0.8rem;
+  }
+
+  .checkbox input{
+    font-size: 0.8rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .submission-message {
+    font-size: 0.8rem;
+  }
+  
+}

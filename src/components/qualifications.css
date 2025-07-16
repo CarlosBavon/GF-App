@@ -1,0 +1,87 @@
+.basic,
+.emotional,
+.bonus,
+.deal-breakers {
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: rgb(174, 6, 95);
+    color: white;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.qualifications-title {
+    font-size: 2.5em;
+    color: rgb(238, 8, 131);
+    text-shadow: black 2px 2px 4px;
+    text-align: center;
+} 
+
+.qualifications-description {
+    font-size: 1.4em;
+    color: rgb(238, 8, 131);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none
+}
+
+.apply-button {
+    display: block;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(174, 6, 95);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 90px auto;
+    
+}
+
+.apply-section {
+    width: 100%;
+    display: block;
+    
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.apply-link {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .basic,
+    .emotional,
+    .bonus,
+    .deal-breakers {
+        width: 90%;
+        font-size: 11px;
+    }
+
+    .apply-button {
+        width: 80%;
+        margin: 50px auto;
+        font-size: 12px;
+    }
+
+    h1, p {
+        font-size: 1.5em;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
