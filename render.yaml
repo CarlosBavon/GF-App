@@ -6,7 +6,7 @@ services:
     startCommand: cd backend && node server.js
     envVars:
       - key: MONGODB_URI
-        value: mongodb+srv://username:password@cluster0.syiot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://username:password@cluster0.syjot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       - key: EMAIL_USER
         value: your-email@gmail.com
       - key: EMAIL_PASS
@@ -16,9 +16,9 @@ services:
 
   - type: web
     name: girlfriend-app-frontend
-    runtime: node
-    buildCommand: cd frontend && npm install && npm run build
+    runtime: static  # Changed from 'node' to 'static'
     staticPublishPath: ./frontend/build
+    buildCommand: cd frontend && npm install && npm run build
     envVars:
       - key: REACT_APP_API_URL
         value: https://girlfriend-app-backend.onrender.com
