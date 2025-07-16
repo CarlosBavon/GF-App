@@ -6,7 +6,7 @@ services:
     startCommand: cd backend && node server.js
     envVars:
       - key: MONGODB_URI
-        value: your_mongodb_uri
+        value: mongodb+srv://carlosbavon46:<db_password>@cluster0.xyl8iot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       - key: PORT
         value: 10000
 
@@ -17,4 +17,4 @@ services:
     staticPublishPath: ./frontend/build
     envVars:
       - key: REACT_APP_API_URL
-        value: https://gf-app-backend.onrender.com
+        value: https://backend.onrender.com
