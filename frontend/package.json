@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://gf-app-backend.onrender.com",
   "description": "A React application for managing GF tasks",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -18,7 +18,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postinstall": "npm install react-scripts",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
