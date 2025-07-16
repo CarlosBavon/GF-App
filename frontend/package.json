@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
-    "postinstall": "npm install react-scripts",
+    "install": "npm install --legacy-peer-deps",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
