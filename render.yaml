@@ -8,11 +8,11 @@ services:
       - key: MONGODB_URI
         value: mongodb+srv://carlosbavon46:flo.kaane.74@cluster0.xyl8iot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       - key: EMAIL_USER
-        value: carlosbavon46@gmail.com
+        value: your-email@gmail.com
       - key: EMAIL_PASS
-        value: aigvduktarlimzuv
+        value: your-app-password
       - key: YOUR_EMAIL
-        value: carlosbavon46@gmail.com
+        value: recipient@gmail.com
 
   - type: web
     name: girlfriend-app-frontend
